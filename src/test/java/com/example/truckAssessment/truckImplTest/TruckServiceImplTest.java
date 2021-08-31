@@ -34,7 +34,7 @@ class TruckServiceImplTest {
 
         Truck truck = new Truck();
 
-        truck.setTruckId(9L);
+          truck.setTruckId(9L);
         truck.setTruckMake("Bentley");
         truck.setTruckModel("Bentley model");
         truck.setRegNumber("0098");
