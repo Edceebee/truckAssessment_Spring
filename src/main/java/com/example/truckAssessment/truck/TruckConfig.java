@@ -1,4 +1,4 @@
-package com.example.truckAssessment.truckImplTest;
+package com.example.truckAssessment.truck;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;

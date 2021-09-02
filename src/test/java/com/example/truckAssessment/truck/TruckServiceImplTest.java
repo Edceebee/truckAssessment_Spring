@@ -1,4 +1,4 @@
-package com.example.truckAssessment.truckImplTest;
+package com.example.truckAssessment.truck;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.MethodOrderer;
@@ -10,10 +10,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 //import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import java.util.List;
-import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @Slf4j

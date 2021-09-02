@@ -1,4 +1,4 @@
-package com.example.truckAssessment.truckImplTest;
+package com.example.truckAssessment.truck;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -9,8 +9,8 @@ import java.util.List;
 public class TruckController {
     private final TruckServiceImpl truckService;
 
-    public TruckController(TruckServiceImpl studentService) {
-        this.truckService = studentService;
+    public TruckController(TruckServiceImpl truckService) {
+        this.truckService = truckService;
     }
 
 

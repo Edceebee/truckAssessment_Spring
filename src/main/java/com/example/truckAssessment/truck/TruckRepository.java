@@ -1,4 +1,4 @@
-package com.example.truckAssessment.truckImplTest;
+package com.example.truckAssessment.truck;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

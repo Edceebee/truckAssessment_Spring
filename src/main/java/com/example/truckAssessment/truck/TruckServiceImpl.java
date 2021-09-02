@@ -1,4 +1,4 @@
-package com.example.truckAssessment.truckImplTest;
+package com.example.truckAssessment.truck;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -8,12 +8,9 @@ import java.util.*;
 @Service
 public class TruckServiceImpl {
 
-    private final TruckRepository truckRepository;
-
     @Autowired
-    public TruckServiceImpl(TruckRepository truckRepository) {
-        this.truckRepository = truckRepository;
-    }
+    TruckRepository truckRepository;
+
 
     public List<Truck> getStudent() {
 
@@ -79,4 +76,13 @@ public class TruckServiceImpl {
         return allTrucks;
     }
 
+//    public Iterable<Truck> findAll(boolean isDeleted){
+//
+//        Session session = entityManager.unwrap(Session.class);
+//        Filter filter = session.enableFilter("deletedProductFilter");
+//        filter.setParameter("isDeleted", isDeleted);
+//        Iterable<Truck> truck =  truckRepository.findAll();
+//        session.disableFilter("deletedProductFilter");
+//        return truck;
+//    }
 }
